@@ -1,6 +1,6 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
+	margin-top : 2em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
@@ -9,6 +9,28 @@
 	color: #CC00AA;
 }
 
+.project{ 
+	font-family: Helvetica;
+	font-size: 14px;
+	background-color: #42cbf4;
+	color: #443787;
+
+}
+.jumbotron-container{
+	font-family: Verdana;
+}
+.container-fluid{
+	font-family: Georgia;
+	font-size: 15px;
+	background-color: #42f4eb;
+}
+
+.col-md-4{
+	border: solid black;
+}
+.col-md-8{
+	color: #8041f4
+}
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
