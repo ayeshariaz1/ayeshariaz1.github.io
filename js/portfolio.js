@@ -13,10 +13,13 @@ function initializePage() {
 	console.log("Javascript is connected!");
 }
 
-$("profile-pic").click(projectClick);
+$("#profile-pic").click(projectClick);
+$("#project").click(projectClick);
+
 
 function projectClick(e) {
 	e.preventDefault();
- 	$(this).css(“background-color”, "#7fff00");
+ 	$(this).css("background-color", "#7fff00");
+ 	$(this).parent().next().toggle();
 }
 
